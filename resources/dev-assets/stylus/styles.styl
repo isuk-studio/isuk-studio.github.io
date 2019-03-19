@@ -1,0 +1,55 @@
+@import "../../../node_modules/normalize-css/normalize.css"
+@import "../web-fonts/metropolis.css"
+@import "../web-fonts/source-sans-pro.css"
+@import "./colors"
+
+html, body
+  background-color $black
+  color white
+  font-family 'Source Sans Pro', sans-serif
+  line-height 1.5
+
+h1,h2,h3,h4,h5,h6
+  font-family 'Metropolis', sans-serif
+  font-weight 500
+
+h2
+  font-size 1.825em
+
+.container
+  max-width 480px
+  margin 0 auto
+  width 100%
+  display flex
+  align-items center
+  height 100%
+
+.info
+  padding 0 2em
+  h1
+    overflow hidden
+    height 40px
+    margin-top 0
+    img
+      display block
+      height 40px
+  h1, h2  
+    margin-bottom 2.25rem
+
+.night-illustration
+  display none
+
+.highlight
+  color $yellow
+  font-weight 700
+
+.contact-intro
+  margin-top 1.5em;
+
+a.contact
+  text-decoration none
+  color $yellow
+  display flex
+  align-items center
+  img
+    margin-right 0.5em;

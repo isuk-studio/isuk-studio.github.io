@@ -1,0 +1,33 @@
+{
+  "name": "isuk.studio",
+  "version": "0.1.0",
+  "description": "Our design agency homepage",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp-stylus": "^2.7.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "normalize-css": "^2.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunupf/isuk-homepage.git"
+  },
+  "keywords": [
+    "homepage",
+    "design",
+    "isuk",
+    "isuk",
+    "studio"
+  ],
+  "author": "sunupf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunupf/isuk-homepage/issues"
+  },
+  "homepage": "https://github.com/sunupf/isuk-homepage#readme"
+}
